@@ -1,0 +1,37 @@
+.repo-list {
+    @apply mt-8;
+  }
+  
+  .repo-item {
+    @apply p-4 mb-4 bg-white rounded shadow-md;
+  }
+  
+  .pagination {
+    @apply flex justify-between items-center mt-4;
+  }
+  
+  .select {
+    @apply border border-gray-300 rounded p-2;
+  }
+  
+  .btn {
+    @apply bg-blue-500 text-white rounded p-2 hover:bg-blue-700;
+  }
+  
+  .topic {
+    @apply bg-gray-200 text-gray-700 rounded-full px-2 py-1;
+  }
+  
+  .no-repos {
+    @apply text-center mt-8;
+  }
+  
+  .repo-item {
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .repo-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  
